@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/blood"
+        android:scaleType="fitXY"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="SUCCESSFULLY Registered!!"
+        android:textSize="9pt"
+        android:textColor="@color/red"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="Name:"
+        android:textSize="9pt"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:fontFamily="serif"
+        android:textSize="10pt"
+        android:textColor="@color/red"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="Phone:"
+        android:textSize="9pt"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:fontFamily="serif"
+        android:textSize="10pt"
+        android:textColor="@color/red"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="Blood Group:"
+        android:textSize="9pt"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/bldgrp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:fontFamily="serif"
+        android:textSize="10pt"
+        android:textColor="@color/red"/>
+
+</LinearLayout>

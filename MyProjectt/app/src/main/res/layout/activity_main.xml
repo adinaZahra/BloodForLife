@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:gravity="center_horizontal"
+    tools:context="com.example.dell.myprojectt.MainActivity"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/blood"
+        android:scaleType="fitXY"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:text="Register as a Doner"
+        android:textSize="13pt"
+        android:textColor="@color/red"/>
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:hint="@string/name_txt" />
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:hint="@string/email_txt"
+        android:inputType="textWebEmailAddress" />
+
+    <EditText
+        android:id="@+id/et_phone"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="7dp"
+        android:gravity="center_horizontal"
+        android:hint="@string/phone_txt"
+        android:maxLength="11" />
+    <EditText
+        android:id="@+id/et_bldgrp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="7dp"
+        android:gravity="center_horizontal"
+        android:hint="Enter Blood Group" />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:onClick="onClick"
+        android:text="@string/btn_save" />
+    <Button
+        android:id="@+id/btn_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:onClick="onClick"
+        android:text="Doner List" />
+
+</LinearLayout>
+

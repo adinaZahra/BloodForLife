@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyProjectt</string>
+    <string name="name_txt">Enter Name</string>
+    <string name="email_txt">Enter Email</string>
+    <string name="address_txt">Enter Address</string>
+    <string name="phone_txt">Enter Mobile no.</string>
+    <string name="btn_save">Save</string>
+
+</resources>
